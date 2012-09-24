@@ -1,0 +1,5 @@
+for FILENAME in $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
+do
+ xbase=${FILENAME##*/}
+ python ~/Documents/subliminal/scripts/subliminal -l en $xbase
+done
